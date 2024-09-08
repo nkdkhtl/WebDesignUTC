@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    background-color: #bad2ea;
+    color: #3578b7;
+}
+
+span {
+    color: #3578b7;
+}
+.about  span {
+    font-weight: 700;
+}
+.interests span {
+    font-weight: 900;
+    color: black;
+    font-family: fantasy;
+}
+.interests span:last-child {
+    color: black;
+    font-weight: normal;
+    font-family: cursive;
+}
+
+table,tr,td,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td:first-child {
+    color: #255a99;  
+    font-weight: 700;
+}
+.number {
+    color: #5fa2e0 !important;
+    font-weight: 300;
+} 
+img {
+    margin-top: 60px;
+    float: right;
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
