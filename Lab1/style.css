@@ -32,6 +32,9 @@ table,tr,td,th{
     border: 2px solid black;
     border-collapse: collapse;
 }
+tr:nth-child(2n+3) {
+    background-color: #eaeaea;
+  }
 td:first-child {
     color: #255a99;  
     font-weight: 700;
