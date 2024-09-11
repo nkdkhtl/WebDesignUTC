@@ -1,0 +1,51 @@
+* {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    padding: 0;
+    background-color: #585445;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 4rem;
+}
+li {
+    font-size: 1.2rem;
+}
+.yellow {
+    color: yellow;
+}
+
+.line {
+    height: 1px;
+    width: 100vw;
+    background-color: #b2b0aa;
+}
+.header__color {
+    color: #a0c3f8;
+}
+
+.italic {
+    font-style: italic;
+}
+
+a {
+    color: red;
+}
+
+.doll {
+    width: 300px;
+    min-height: 400px;
+
+}
+.dog {
+    min-height: 400px;
+    width: 600px;
+}
+
+.tag  img {
+    width: 100px;
+    height: 30px;
+}
