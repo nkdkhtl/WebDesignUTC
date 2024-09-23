@@ -1,0 +1,22 @@
+td,tr {
+    border: 1px red solid;
+}
+td {
+    padding: 3px;
+}
+
+tr:not(.category):not(:first) {
+    height: 100px;
+    width: 400px;
+}
+
+.category,tr:first-child {
+    font-weight: 900;
+}
+th {
+    background: #b4cdf2;
+    height: 50px;
+}
+.purple {
+    background: #a49dcd;
+}
