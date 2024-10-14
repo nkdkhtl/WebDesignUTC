@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+form > div {
+    border: 1px solid #d1d1d1;
+
+}
+
+form div:not(div:first-child) {
+    width: 100%;
+    height: 40px;
+    background: hsl(0, 0%, 98%);
+    border: 1px solid #d1d1d1;
+    display: flex;
+    align-items: center;
+}
+
+label {
+    margin: 10px;
+}
+select {
+    margin:  0 5px;
+}
+
+.navbar {
+    width: 100vw;
+}
+
+.navbar li {
+    width: fit-content;
+    display: inline-block;  
+}
+
+@media only screen and (min-width: 320px) {
+    .navbar li {
+        width: fit-content;
+        display: inline-block;
+        padding:  0 4px;  
+    }
+}
+    
+a {
+    color: #2222ef;
+}
+
+.quick__links ul {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #d1d1d1 ;
+
+}
+.quick__links h4 {
+    margin: 0;
+    background: #f9f9f9;
+    border: 1px solid #d1d1d1 ;
+}
+
+.quick__links li {
+    list-style: none;
+}
+
+button {
+    margin-left: 100px;
+}
+
+table {
+    margin-top: 30px;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+thead > tr {
+    background: #eeeeee;
+}
