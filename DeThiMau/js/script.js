@@ -1,4 +1,4 @@
-// coding implementation
+
 const inputEmail = document.querySelector("#email");
 const inputComment = document.querySelector("#com");
 const inputRating = document.querySelector("#rate");
@@ -45,12 +45,4 @@ function validateNumber(string) {
     const regEx = /[0-9]/;
     return regEx.test(string)
 }
-
-
-
-
-
-
-
-
 // end coding implementation
